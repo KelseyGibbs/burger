@@ -1,11 +1,15 @@
-var mysql = require("mysql://b9b3a0eb5f5994:63489a08@us-cdbr-iron-east-02.cleardb.net/heroku_fc492e9ea755ca1?reconnect=true");
+var mysql = require("mysql");
+
+if (process.env.JAWSBD_URL) {
+  var connection = mysql.createConnection(process.env.JAWSBD_URL) 
+} else {
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
     password: "Batman60101062",
     database: "burgers_db"
-  });
+  }); }
 
 connection.connect(function(err) {
   if (err) {
