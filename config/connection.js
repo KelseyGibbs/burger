@@ -1,4 +1,4 @@
-var mysql = require("mysql");
+var mysql = require("mysql://b9b3a0eb5f5994:63489a08@us-cdbr-iron-east-02.cleardb.net/heroku_fc492e9ea755ca1?reconnect=true");
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
