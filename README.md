@@ -1,8 +1,8 @@
 # burger
 
 ## Technology
-* Node, Express, ORM
-* Live demo: 
+* Node, Express
+* Live demo: https://desolate-woodland-54976.herokuapp.com/
 
 ## License 
 * This project is licensed under The MIT License (MIT).
