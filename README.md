@@ -1,7 +1,7 @@
 # burger
 
 ## Technology
-* Node, Express, Mongo, Mongoose
+* Node, Express, SQL, Sequelize
 * Live demo: https://desolate-woodland-54976.herokuapp.com/
 
 ## License 
