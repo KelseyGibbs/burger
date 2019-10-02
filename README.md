@@ -1,7 +1,7 @@
 # burger
 
 ## Technology
-* Node, Express, SQL, Sequelize
+* Node, Express, Handlebars, SQL, Sequelize
 * Live demo: https://desolate-woodland-54976.herokuapp.com/
 
 ## License 
